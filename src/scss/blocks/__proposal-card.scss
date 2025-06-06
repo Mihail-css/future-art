@@ -1,0 +1,68 @@
+.propocan__card {
+
+    display: inline-block;
+
+    padding: 20px;
+
+    border-top: 1px solid rgb(214, 239, 14);
+    border-radius: 28px;
+
+    background: rgb(19, 30, 58);
+
+    width: 410px;
+    height: 100%;
+    transition: all .2s;
+
+    &:hover {
+        margin-top: -10px;
+        -webkit-box-shadow: 0px 5px 10px 2px rgb(214, 239, 14);
+        -moz-box-shadow: 0px 5px 10px 2px rgb(214, 239, 14);
+        box-shadow: 0px 5px 10px 2px rgb(214, 239, 14);
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 350px;
+    }
+}
+
+
+
+.propocan__cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        flex-wrap: wrap;
+    }
+
+}
+
+.propocan__card-img {
+    border-radius: 5%;
+    margin-bottom: 23px;
+
+}
+
+.propocan__card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.propocan__card-price {
+    display: flex;
+    gap: 3px;
+}
+
+.propocan__card-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

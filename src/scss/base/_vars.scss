@@ -1,0 +1,23 @@
+:root {
+	--container-width: 1320px;
+	--container-padding: 15px;
+
+	--font-main: 'lora', sans-serif;
+	--font-accent: 'Inter', sans-serif;
+	--font-titles: var(--font-accent);
+
+	--page-bg: #090F1D;
+	--text-color: #fff;
+	--accent: #D6EF0E;
+	--link-color: #FFFFFDB8;
+
+
+    --laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+    --page-bg: #252526;
+    --text-color: #fff;
+}

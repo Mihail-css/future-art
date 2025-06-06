@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Yrsa:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+
+html {
+	scroll-behavior: smooth;
+	background-color: #090F1D;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+	
+}
+
+a {
+
+	transition: all 0.2s ease-in;
+	color: var(--link-color);
+
+	&:hover {
+		color: #fff;
+		filter: drop-shadow(0px 0px 30px rgb(214, 239, 14));
+	}
+
+}
+
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}

@@ -1,0 +1,23 @@
+.header {
+	background-color: #090F1D;
+	padding: 40px 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	/* Mobile */
+	@media (max-width: 899px) {
+		padding: 25px 0;
+	}
+}
+
+.button__header {
+
+	/* Mobile */
+	@media (max-width: 899px) {
+		display: none;
+	}
+}

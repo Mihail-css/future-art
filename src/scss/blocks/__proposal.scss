@@ -1,0 +1,35 @@
+.proposal {
+    padding: 92px 0;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        padding: 40px 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 20px 0;
+    }
+}
+
+.proposal__title {
+    span {
+        color: #D6EF0E;
+    }
+
+    margin-bottom: 84px;
+
+    .title-2 {
+        width: 500px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-bottom: 40px;
+    }
+}
+
+.proposal__header-row {
+    display: flex;
+    align-items: flex-end;
+}

@@ -1,0 +1,158 @@
+.hero {
+    padding: 92px 0;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        padding: 40px 0;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 20px 0;
+    }
+}
+
+.hero__row {
+    display: flex;
+    justify-content: space-between;
+
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
+.hero__desc {
+    width: 663px;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        width: 500px;
+    }
+
+
+    @media (max-width:950px) {
+        width: 500px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding-left: 40px;
+        width: 360px;
+    }
+
+}
+
+
+.learning__inner {
+    display: flex;
+    gap: 50px;
+    font-family: var(--font-accent);
+    margin-bottom: 72px;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        margin-bottom: 35px;
+    }
+
+    /* Mobile XS */
+    @media (max-width:599px) {}
+}
+
+
+
+.hero__art__work {}
+
+.hero__art__work-row {
+    display: flex;
+    gap: 34px;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        gap: 25px;
+    }
+
+    /* Mobile XS */
+    @media (max-width:599px) {
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+}
+
+.hero__art__work__number {
+
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        font-size: 40px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 32px;
+    }
+
+    /* Mobile XS */
+    @media (max-width:599px) {
+        font-size: 24px;
+    }
+
+}
+
+.hero__art__work__player {
+
+    font-family: var(--font-accent);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    color: rgb(255, 255, 253);
+
+
+}
+
+.linear {
+    height: 91px;
+    border: 1px solid rgb(214, 239, 14);
+    margin-right: 94px;
+
+    /* Tablet */
+    @media (max-width:1100px) {
+        margin-right: 60px;
+        height: 70px;
+    }
+
+    /* Mobile XS */
+    @media (max-width:599px) {
+        height: 60px;
+        margin: 5px;
+    }
+}
+
+.hero__pictures {
+    position: relative;
+    display: block;
+
+
+    padding-left: 55px;
+
+
+}
+
+
+.hero__circle__text {
+
+    position: absolute;
+    left: -3px;
+    top: 200px;
+
+
+}
