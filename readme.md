@@ -1,4 +1,4 @@
-# Gulp сборка для верстки сайтов от [ВебКадеми](https://webcademy.ru)
+# Gulp сборка для верстки сайтов  [Учебный проект-Future art](https://mihail-css.github.io/future-art/)
 
 - HTML,
 - SCSS,
