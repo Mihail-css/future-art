@@ -145,16 +145,15 @@
     /* Mobile */
     @media (max-width: 899px) {
         width: 350px;
+        height: 244px;
         background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+
     }
 
-    /* Mobile */
-    @media (max-width: 899px) {
-        background-position: center center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 244px;
-    }
+
 }
 
 .popular__row-card-img-3 {
@@ -192,7 +191,7 @@
     @media (max-width:599px) {
         width: 350px;
         background-size: cover;
-        background-position:center center;
+        background-position: center center;
 
         background-repeat: no-repeat;
 
