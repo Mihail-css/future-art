@@ -1346,7 +1346,7 @@ span {
     .popular__row-card-img-2 {
         width: 350px;
         background-position: center center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 244px
     }
@@ -1484,7 +1484,7 @@ span {
     .popular__row-card-img-3,
     .popular__row-card-img-4 {
         width: 350px;
-        background-size: contain
+        background-size: cover;
     }
 
     .popular__row-card-img-4 {
