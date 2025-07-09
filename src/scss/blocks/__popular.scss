@@ -151,7 +151,7 @@
     /* Mobile */
     @media (max-width: 899px) {
         background-position: center center;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         height: 244px;
     }
@@ -171,7 +171,7 @@
     /* Mobile XS */
     @media (max-width:599px) {
         width: 350px;
-        background-size: contain;
+        background-size: cover;
 
     }
 }
@@ -191,7 +191,7 @@
     /* Mobile XS */
     @media (max-width:599px) {
         width: 350px;
-        background-size: contain;
+        background-size: cover;
         background-position:center center;
 
         background-repeat: no-repeat;
